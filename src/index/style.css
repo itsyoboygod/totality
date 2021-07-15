@@ -1,7 +1,67 @@
 body{
-    width: 50%;
 }
 
 form{
-justify-content: center;
+    margin: 50px auto;
+    width: 50%;
 }
+
+.btn.btn-primary{
+    display: flex;
+    margin: 10px auto;
+    right: 0;
+}
+
+.form-group{
+    margin: 20px;
+}
+
+.form-group select option:hover{
+    cursor: pointer;
+}
+
+.phones{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.phones .form-group{
+    margin: 0;
+    width: 100%;
+}
+
+.cpf-cnpj{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+}
+
+.cpf-cnpj .form-group{
+    margin: 0;
+    width: 100%;
+}
+
+.cpf-cnpj p{
+    margin: 0 10px;
+    height: min-content;
+    align-self: flex-end;
+}
+
+.checkboxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkoptions{
+    margin: auto 10px !important;
+}
+
+
+
+
+
+
+
+
